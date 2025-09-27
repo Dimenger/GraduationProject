@@ -1,16 +1,35 @@
-# React + Vite
+Детский центр развития «Теремок»:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Макет сайта:
+Header : 1. Лого; 2. Телефоны; 3. Адреса.
+Body:  
+ 1. Главная; 2. О нас; 3. Расписание; 4. Фото; 5. Услуги; 6. Контакты:
+6.1. Телефоны;
+6.2. Соц. Сети;
+6.3. Адреса;
+6.4. Карта; 7. Страницы ошибок:
+7.1. Страница с ошибкой о том, что страница по заданному адресу не существует;
+7.2. Страница с ошибкой о том, что у пользователя нет доступа к заданной странице. 8. Авторизация; 9. Регистация; 10. Страница пользователей.
 
-Currently, two official plugins are available:
+    Footer :
+        1.	Страница: Запись на пробное занятие;
+        2.	Соц. сети;
+        3.	Адреса.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Роли пользователей:
+        1.	Администратор;
+        2.	Пользователь;
+        3.	Гость.
 
-## React Compiler
+Scope of technologies:
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Проект: Create React App.
+2. Настроенный проект: ESLint, Prettier, EditorConfig.
+3. CSS: CSS Module.
+4. Верстка только под Desktop.
+5. Типизация: PropTypes.
+6. Формы с валидацией: React Hook Form & Yup.
+7. Сетевые запросы: JSON Server, установлен глобально.
+8. Роутинг: React Router.
+9. Менеджер состояния: Redux, Redux Thunk, React Redux, разбивка на под-состояния и несколько редьюсеров.
+10. Допускается обоснованное использование npm-пакетов на усмотрение разработчика.
