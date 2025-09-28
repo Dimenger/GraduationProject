@@ -1,11 +1,28 @@
+import { Logo } from "../../elements/logo/logo";
+import { Phones } from "../../elements/phones/phones";
+import { Addresses } from "../../elements/addresses/addresses";
+
+import { ControlPanel } from "../../ui/control-panel/control-panel";
+
 import styles from "./header.module.css";
 
 export const Header = () => {
   return (
     <header className={styles.headerContainer}>
-      Header
-      <br />
-      <i class="fa fa-camera-retro fa-3x"></i>
+      <div className={styles.topRow}>
+        <div className={styles.column}>
+          <Phones />
+        </div>
+        <div className={styles.column}>
+          <Logo />
+        </div>
+        <div className={styles.column}>
+          <Addresses />
+        </div>
+      </div>
+      <div className={styles.controlPanelRow}>
+        <ControlPanel />
+      </div>
     </header>
   );
 };
