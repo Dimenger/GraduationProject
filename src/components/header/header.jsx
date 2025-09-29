@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
+
 import { Logo } from "../../elements/logo/logo";
 import { Phones } from "../../elements/phones/phones";
 import { Addresses } from "../../elements/addresses/addresses";
-
 import { ControlPanel } from "../../ui/control-panel/control-panel";
 
 import styles from "./header.module.css";
@@ -14,7 +15,9 @@ export const Header = () => {
           <Phones />
         </div>
         <div className={styles.column}>
-          <Logo />
+          <Link to="/">
+            <Logo />
+          </Link>
         </div>
         <div className={styles.column}>
           <Addresses />
