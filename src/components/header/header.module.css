@@ -2,6 +2,7 @@
   width: 100%;
   font-size: 20px;
   color: black;
+  padding: 0 Auto;
 }
 
 .topRow {
@@ -20,7 +21,7 @@
 
 .controlPanelRow {
   margin-top: 10px;
-  padding: 10px 0;
+  padding: 25px;
   background: linear-gradient(to top, #b2f2bb, #4caf50); 
   display: flex;
   justify-content: center;
