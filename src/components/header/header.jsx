@@ -1,7 +1,6 @@
 import { Logo } from "../../elements/logo/logo";
 import { Phones } from "../../elements/phones/phones";
 import { Addresses } from "../../elements/addresses/addresses";
-
 import { ControlPanel } from "../../ui/control-panel/control-panel";
 
 import styles from "./header.module.css";
