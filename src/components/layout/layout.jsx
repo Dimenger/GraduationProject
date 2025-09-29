@@ -8,15 +8,15 @@ export const Layout = () => {
   return (
     <div className={styles.body}>
       <ScrollRestoration />
-      <div className={styles.body_header}>
+      <header className={styles.body_header}>
         <Header />
-      </div>
+      </header>
       <main className={styles.body_main}>
         <Outlet />
       </main>
-      <div className={styles.body_footer}>
+      <footer className={styles.body_footer}>
         <Footer />
-      </div>
+      </footer>
     </div>
   );
 };
