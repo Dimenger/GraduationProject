@@ -9,4 +9,21 @@
 .link{
   text-decoration: none;
   color: #fff;
+  font-weight: 600;
+}
+
+.link :hover {
+  color: orangered;
+  background-color: yellow;
+  font-weight: 600;
+}
+
+.activeLink button {
+  color: orangered;
+  background-color: yellow;
+  font-weight: 600
+}
+
+.activeLink {
+  text-decoration: none;
 }
