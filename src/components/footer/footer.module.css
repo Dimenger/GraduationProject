@@ -1,19 +1,27 @@
 .footerContainer {
   width: 100%;
   font-size: 20px;
-  text-align: start;
-  padding: 40px 20px; 
+  text-align: center;
+  padding: 10px; 
   background: linear-gradient(to bottom, #b2f2bb, #4caf50); 
   color: #fff; 
-  display: flex;
-  justify-content: center; 
   gap: 20px; 
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 3px dashed white
+}
+
+.linkText {
+  font-size: 30px;
 }
 
 .topRow {
   display: flex;
-  justify-content:flex-start; 
-  gap: 60px; 
+  justify-content: center; 
+  gap: 600px; 
   padding: 10px;
 }
 
@@ -24,7 +32,3 @@
   min-width: 150px;
 }
 
-.link{
-  text-decoration: none;
-  color: #fff;
-}

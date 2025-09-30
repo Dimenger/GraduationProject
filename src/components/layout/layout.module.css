@@ -1,0 +1,21 @@
+.body {
+  margin: 0;
+  padding: 0;
+  height: 100vh
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+  min-height: 0; /* для корректного скролла */
+  overflow-y: auto; /* если контента много, появляется скролл */
+}
+
+.header, .footer {
+  flex-shrink: 0;
+}

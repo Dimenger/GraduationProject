@@ -15,6 +15,7 @@ export const App = () => {
         { path: "photos", element: <div> Photos </div> },
         { path: "services", element: <div> Services </div> },
         { path: "schedule", element: <div> Schedule </div> },
+        { path: "news", element: <div> News </div> },
         { path: "contacts", element: <div> Contacts </div> },
         { path: "registration", element: <div> Registration </div> },
       ],
