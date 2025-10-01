@@ -1,4 +1,6 @@
-const inintialNewsState = {};
+const inintialNewsState = {
+  news: [],
+};
 
 export const newsReducer = (state = inintialNewsState, action) => {
   switch (action.type) {

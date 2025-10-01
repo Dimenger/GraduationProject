@@ -1,0 +1,19 @@
+.newsContainer {
+  font-size: 18px;
+}
+
+.article {
+  border-bottom: 2px double black;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
