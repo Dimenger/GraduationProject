@@ -100,21 +100,21 @@
       "login": "Adam",
       "password": "qwe123",
       "registered_at": "2025-02-01 10:04",
-      "role_id": 0
+      "role_id": "A"
     },
     {
       "id": "d62b",
       "login": "Ivan",
       "password": "qwe123",
       "registered_at": "2025-09-19 15:40",
-      "role_id": 2
+      "role_id": "R"
     },
     {
+      "id": "Rhrj8OZ",
       "login": "Alex",
       "password": "qazwsx",
       "registered_at": "2025-09-26 12:25",
-      "role_id": 2,
-      "id": "Rhrj8OZ"
+      "role_id": "R"
     }
   ]
 }
